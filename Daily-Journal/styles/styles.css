@@ -1,0 +1,45 @@
+.body { 
+    background-color: darkgreen;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.header {
+    float: inline-start;
+    margin: 20px;
+}
+
+#container{
+    display: flex;
+}
+/* This is to help me remember how to make this flex */
+/* label, textarea, select {display: flex;} */
+label {display: flex}
+
+.quote {
+    width: 200px;
+    background-color: blanchedalmond;
+    margin: 10px;
+    border: 1px solid purple;
+    border-radius: 2%;
+    padding: 10px 20px;
+  }
+  
+  .quoteBlocks {
+    display: flex;
+    flex-wrap:wrap;
+  }
+  
+  .item {
+    background-color: blueviolet;
+    border-radius: 50px;
+    display: flex;
+    min-height: 150px;
+    min-width: 300px;
+    /* max-width: 300px; */
+    /* max-height: 150px;  */
+    margin: 40px;
+    flex-direction: column;
+    align-items: center;
+    /* padding: 50px; */
+  }
