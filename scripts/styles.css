@@ -1,6 +1,0 @@
- #container{
-    display: flex;
-}
-/* This is to help me remember how to make this flex */
-/* label, textarea, select {display: flex;} */
-label {display: flex}
